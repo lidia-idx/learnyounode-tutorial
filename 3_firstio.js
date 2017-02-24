@@ -11,7 +11,7 @@
 
 var fs = require('fs');
 
-var path = process.argv[2]; // test if the arg here
+var path = process.argv[2];  // arg not tested
 
 var buffer = fs.readFileSync(path);
 
