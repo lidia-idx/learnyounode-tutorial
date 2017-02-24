@@ -3,4 +3,4 @@
  * Licensed under MIT License.
  */
 
-console.log("Hello, World!");
+console.log("HELLO WORLD");
