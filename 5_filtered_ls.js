@@ -13,7 +13,6 @@
 var fs = require('fs');
 var path = require('path');
 
-//module.exports =
 function filterExt(pathname, extension, callback) {
     var dot_ext = "." + extension;
     var filtered = [];
@@ -39,5 +38,3 @@ function log(err, result){
 }
 
 filterExt(process.argv[2], process.argv[3], log);
-
-//module.exports = filtered_ls(pathname, extenstion, callback);
